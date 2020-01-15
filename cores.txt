@@ -1,0 +1,7 @@
+#00AFEF azul claro
+
+#F58634 laranja
+
+ffbb38 amarelo
+
+003679 azul
