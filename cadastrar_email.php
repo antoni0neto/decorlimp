@@ -22,7 +22,7 @@
 <body>
 	
     <div class="whatsapp">
-		<a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR OR�AMENTO VIA WHATSAPP"><img src="img/core-img/whatsapp.png" alt="Decorlimp | Ligue: (11) 96489-1638" /></a>
+		<a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR OR�AMENTO VIA WHATSAPP"><img src="img/core-img/whatsapp.png" alt="Decorlimp | Ligue: (11) 96489-1638" /></a>
 	</div>
 
 <?php
@@ -32,14 +32,14 @@ Um novo usuário se cadastrou em seu site para receber as promoções e novidade
 Via: http://www.decorlimp.com.br/\n
 E-mail cadastrado: \n".$email."\n";
 
-			$emailsender='comercial@decorlimp.com.br';
-			$emaildestinatario='comercial@decorlimp.com.br';
+			$emailsender='decorlimp.brasil@gmail.com';
+			$emaildestinatario='decorlimp.brasil@gmail.com';
 			$assunto = "Nova solicitação de cadastro através do seu site, de: ".$emaildestinatario;
 			$headers = "MIME-Version: 1.1\n";
 			$headers .= "Content-type: text/plain; charset=utf-8\n";
 			$headers .= "From: no-reply@decorlimp.com.br\r\n"; //E-mail do remetente
-			$headers .= "Return-Path: Decorlimp <comercial@decorlimp.com.br>\r\n"; //E-mail do remetente 
-			/*$headers .= "Reply-To: comercial@decorlimp.com.br\n" */
+			$headers .= "Return-Path: Decorlimp <decorlimp.brasil@gmail.com>\r\n"; //E-mail do remetente 
+			/*$headers .= "Reply-To: decorlimp.brasil@gmail.com\n" */
 			$headers .= "X-Priority: 1\n";
 	if($email !=""){
 		
@@ -48,7 +48,7 @@ E-mail cadastrado: \n".$email."\n";
 		$headers .= "Return-Path: " . $emailsender . $quebra_linha; // Se "não for Postfix"
 		mail($emaildestinatario, $assunto, $mensagemHTML, $headers );
 			
-		$headers .= "From: Nova solicitação de cadastro através do seu site <comercial@decorlimp.com.br>\n";
+		$headers .= "From: Nova solicitação de cadastro através do seu site <decorlimp.brasil@gmail.com>\n";
 		
 		}
 			

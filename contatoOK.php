@@ -38,14 +38,14 @@ Nome: ".$nome.
 "\n\n Serviço: ".$servico.
 "\n\n Assunto: ".$assunto.
 "\n\n Mensagem: ".$message."\n";
-			$emailsender='comercial@decorlimp.com.br';
-			$emaildestinatario='comercial@decorlimp.com.br';
+			$emailsender='decorlimp.brasil@gmail.com';
+			$emaildestinatario='decorlimp.brasil@gmail.com';
 			$assunto = "Nova mensagem através do seu site, de: ".$emaildestinatario;
 			$headers = "MIME-Version: 1.1\n";
 			$headers .= "Content-type: text/plain; charset=utf-8\n";
 			$headers .= "From: no-reply@decorlimp.com.br\r\n"; //E-mail do remetente
-			$headers .= "Return-Path: Decorlimp <comercial@decorlimp.com.br>\r\n"; //E-mail do remetente 
-			/*$headers .= "Reply-To: comercial@decorlimp.com.br\n" */
+			$headers .= "Return-Path: Decorlimp <decorlimp.brasil@gmail.com>\r\n"; //E-mail do remetente 
+			/*$headers .= "Reply-To: decorlimp.brasil@gmail.com\n" */
 			$headers .= "X-Priority: 1\n";
 	if($email !=""){
 		
@@ -54,7 +54,7 @@ Nome: ".$nome.
 		$headers .= "Return-Path: " . $emailsender . $quebra_linha; // Se "não for Postfix"
 		mail($emaildestinatario, $assunto, $mensagemHTML, $headers );
 			
-		$headers .= "From: Nova mensagem através do seu site <comercial@decorlimp.com.br>\n";
+		$headers .= "From: Nova mensagem através do seu site <decorlimp.brasil@gmail.com>\n";
 		
 		}
 			
