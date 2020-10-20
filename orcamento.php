@@ -258,7 +258,7 @@
                             <div class="contact-form-area contact-page">
                                 <h4 class="mb-50">Solicite o seu Orçamento</h4>
 
-                                <form action="enviar_orcamento.php" method="post" autocomplete="off"> <!-- onSubmit="alert('Sua mensagem foi enviada com sucesso. Agradecemos o contato. Em breve retornaremos!');" -->
+                                <form action="enviar.php" method="post" autocomplete="off"> <!-- onSubmit="alert('Sua mensagem foi enviada com sucesso. Agradecemos o contato. Em breve retornaremos!');" -->
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form-group">
@@ -299,12 +299,11 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control" value="<?php $message; ?>" id="message" name="message" cols="30" rows="10" placeholder="Menssagem" onkeyup="maiuscula(this)" required ></textarea>
+                                                <textarea class="form-control" value="<?php $mensagem; ?>" id="mensagem" name="mensagem" cols="30" rows="10" placeholder="Menssagem" onkeyup="maiuscula(this)" required ></textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <button class="btn credit-btn box-shadow" value="Enviar" type="submit">Enviar</button>
-
+                                            <button class="btn credit-btn box-shadow" value="Enviar" name="BTEnvia" type="submit">Enviar</button>
                                         </div>
                                     </div>
                                 </form>
