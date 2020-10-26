@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp | Orçamento </title>
+    <title>Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp | Contato </title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.png">
@@ -163,11 +163,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>Orçamento</h2>
+                        <h2>Contato</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Orçamento</li>
+                                <li class="breadcrumb-item active" aria-current="page">Contato</li>
                             </ol>
                         </nav>
                     </div>
@@ -246,9 +246,9 @@
                         <div class="col-12 col-lg-8">
                             <!-- Contact Area -->
                             <div class="contact-form-area contact-page">
-                                <h4 class="mb-50">Solicite o seu Orçamento</h4>
+                                <h4 class="mb-50">Tire dúvidas</h4>
 
-                                <form action="enviar_orcamento.php" method="post" autocomplete="off"> <!-- onSubmit="alert('Sua mensagem foi enviada com sucesso. Agradecemos o contato. Em breve retornaremos!');" -->
+                                <form action="enviar_mensagem.php" method="post" autocomplete="off"> <!-- onSubmit="alert('Sua mensagem foi enviada com sucesso. Agradecemos o contato. Em breve retornaremos!');" -->
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form-group">
@@ -262,28 +262,17 @@
                                         </div>
 										<div class="col-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" value="<?php $endereco; ?>" name="endereco" id="endereco" placeholder="Seu endereço" onkeyup="maiuscula(this)" >
-                                            </div>
-                                        </div>
-										<div class="col-12">
-                                            <div class="form-group">
                                                 <input type="text" class="form-control" maxlength="15" value="<?php $telefone; ?>" name="telefone" id="telefone" placeholder="Seu Telefone : (99) 99999-9999" >
                                             </div>
                                         </div>
 										<div class="col-12">
                                             <div class="form-group">
-												<select class="form-control" name="servico" id="servico">
+												<select class="form-control" name="assunto" id="assunto">
 												<?php function selected( $value, $selected ){ return $value==$selected ? ' selected="selected"' : ''; } ?>
-													<option value="">Selecione um Serviço </option>
-													<option value="Sofás"<?php echo selected( 'Sofás', $servico ); ?>>Sofás</option>
-													<option value="Colchões"<?php echo selected( 'Colchões', $servico ); ?>>Colchões</option>
-													<option value="Cadeiras"<?php echo selected( 'Cadeiras', $servico ); ?>>Cadeiras</option>
-													<option value="Poltronas"<?php echo selected( 'Poltronas', $servico ); ?>>Poltronas</option>
-													<option value="Tapetes"<?php echo selected( 'Tapetes', $servico ); ?>>Tapetes</option>
-													<option value="Automóveis"<?php echo selected( 'Automóveis', $servico ); ?>>Automóveis</option>
-													<option value="Puffs"<?php echo selected( 'Puffs', $servico ); ?>>Puffs</option>
-													<option value="Carpete"<?php echo selected( 'Carpete', $servico ); ?>>Carpete</option>
-													<option value="Carrinho de Bebê"<?php echo selected( 'Carrinho de Bebê', $servico ); ?>>Carrinho de Bebê</option>
+													<option value="">Selecione </option>
+													<option value="Sugestão"<?php echo selected( 'Sugestão', $assunto ); ?>>Sugestão</option>
+													<option value="Reclamação"<?php echo selected( 'Reclamação', $assunto ); ?>>Reclamação</option>
+													<option value="Outros"<?php echo selected( 'Outros', $assunto ); ?>>Outros</option>
 												</select>
                                             </div>
                                         </div>
@@ -292,11 +281,10 @@
                                                 <textarea name="message" class="form-control" value="<?php $message; ?>" id="message" name="message" cols="30" rows="10" placeholder="Menssagem" onkeyup="maiuscula(this)" required ></textarea>
                                             </div>
                                         </div>
-                                        <div class="col-12">
-                                            <button class="btn credit-btn box-shadow" value="Enviar" type="submit">Enviar</button>
-
+                                            <div class="col-12">
+                                                <button class="btn credit-btn box-shadow" value="Enviar" type="submit">Enviar</button>
+                                            </div>
                                         </div>
-                                    </div>
                                 </form>
                             </div>
                         </div>

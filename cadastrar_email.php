@@ -22,7 +22,7 @@
 <body>
 	
     <div class="whatsapp">
-		<a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR OR�AMENTO VIA WHATSAPP"><img src="img/core-img/whatsapp.png" alt="Decorlimp | Ligue: (11) 96489-1638" /></a>
+		<a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR OR�AMENTO VIA WHATSAPP"><img src="img/core-img/whatsapp.png" alt="Decorlimp | Ligue: (11) 96489-1638" /></a>
 	</div>
 
 <?php
@@ -32,14 +32,14 @@ Um novo usuário se cadastrou em seu site para receber as promoções e novidade
 Via: http://www.decorlimp.com.br/\n
 E-mail cadastrado: \n".$email."\n";
 
-			$emailsender='decorlimp.brasil@gmail.com';
-			$emaildestinatario='decorlimp.brasil@gmail.com';
+			$emailsender='comercial@decorlimp.com.br';
+			$emaildestinatario='comercial@decorlimp.com.br';
 			$assunto = "Nova solicitação de cadastro através do seu site, de: ".$emaildestinatario;
 			$headers = "MIME-Version: 1.1\n";
 			$headers .= "Content-type: text/plain; charset=utf-8\n";
 			$headers .= "From: no-reply@decorlimp.com.br\r\n"; //E-mail do remetente
-			$headers .= "Return-Path: Decorlimp <decorlimp.brasil@gmail.com>\r\n"; //E-mail do remetente 
-			/*$headers .= "Reply-To: decorlimp.brasil@gmail.com\n" */
+			$headers .= "Return-Path: Decorlimp <comercial@decorlimp.com.br>\r\n"; //E-mail do remetente 
+			/*$headers .= "Reply-To: comercial@decorlimp.com.br\n" */
 			$headers .= "X-Priority: 1\n";
 	if($email !=""){
 		
@@ -48,7 +48,7 @@ E-mail cadastrado: \n".$email."\n";
 		$headers .= "Return-Path: " . $emailsender . $quebra_linha; // Se "não for Postfix"
 		mail($emaildestinatario, $assunto, $mensagemHTML, $headers );
 			
-		$headers .= "From: Nova solicitação de cadastro através do seu site <decorlimp.brasil@gmail.com>\n";
+		$headers .= "From: Nova solicitação de cadastro através do seu site <comercial@decorlimp.com.br>\n";
 		
 		}
 			
@@ -64,7 +64,7 @@ E-mail cadastrado: \n".$email."\n";
                         <h2>Seu e-mail foi cadastrado com sucesso. Obrigado!</h2>
 						<h6> Agora você receberá todas as nossas promoções e novidades.</h6>
 						<div class="cta-btn"><br>
-                            <a href="index" class="btn credit-btn box-shadow">Voltar para home</a>
+                            <a href="index.html" class="btn credit-btn box-shadow">Voltar para home</a>
                         </div>
                     </div>
                 </div>
@@ -85,8 +85,8 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="index">Home</a></li>
-                                <li><a href="about">Quem Somos</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">Quem Somos</a></li>
                                 <li><a href="contact.php">Contato</a></li>
                             </ul>
                         </nav>
@@ -101,7 +101,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/sofas-e-estofados"><img src="img/bg-img/sofa100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
+                                <a href="servicos/sofas-e-estofados.html"><img src="img/bg-img/sofa100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
                             </div>
                             <div class="news-content">
                                 Sofás</a>
@@ -111,7 +111,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/estofados"><img src="img/bg-img/estofados100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
+                                <a href="servicos/estofados.html"><img src="img/bg-img/estofados100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
                             </div>
                             <div class="news-content">
                                 Estofados</a>
@@ -121,7 +121,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/colchoes"><img src="img/bg-img/colchao100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, colchões e estofados em geral. Vamos até sua casa! Confira!">
+                                <a href="servicos/colchoes.html"><img src="img/bg-img/colchao100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, colchões e estofados em geral. Vamos até sua casa! Confira!">
                             </div>
                             <div class="news-content">
                                 Colchões</a>
@@ -139,7 +139,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/tapetes"><img src="img/bg-img/tapete100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, tapetes e estofados em geral. Vamos até sua casa! Confira!">
+                                <a href="servicos/tapetes.html"><img src="img/bg-img/tapete100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, tapetes e estofados em geral. Vamos até sua casa! Confira!">
                             </div>
                             <div class="news-content">
                                 Tapetes</a>
@@ -149,7 +149,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/automoveis"><img src="img/bg-img/automoveis100.jpg" alt="Somos especializados em lavagem e limpeza de automóveis. Vamos até sua casa! Confira!">
+                                <a href="servicos/automoveis.html"><img src="img/bg-img/automoveis100.jpg" alt="Somos especializados em lavagem e limpeza de automóveis. Vamos até sua casa! Confira!">
                             </div>
                             <div class="news-content">
                                 Automóveis</a>
@@ -159,7 +159,7 @@ E-mail cadastrado: \n".$email."\n";
                         <!-- Single News Area -->
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
-                                <a href="servicos/carpete"><img src="img/bg-img/carpete100.jpg" alt="Somos especializados em lavagem e limpeza de carpete. Vamos até sua empresa! Confira!">
+                                <a href="servicos/carpete.html"><img src="img/bg-img/carpete100.jpg" alt="Somos especializados em lavagem e limpeza de carpete. Vamos até sua empresa! Confira!">
                             </div>
                             <div class="news-content">
                                 Carpete</a>
@@ -192,7 +192,7 @@ E-mail cadastrado: \n".$email."\n";
                     <div class="col-12">
                         <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
                             <!-- Footer Logo -->
-                            <a href="index" class="logo"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
+                            <a href="index.html" class="logo"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
 
                             <!-- Copywrite Text -->
                             <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
