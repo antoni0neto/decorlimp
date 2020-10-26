@@ -50,90 +50,7 @@
         </div>
     </div> -->
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 d-flex justify-content-between">
-                        <!-- Logo Area -->
-                        <div class="logo">
-                            <a href="index.html"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
-                        </div>
-
-                        <!-- Top Contact Info -->
-                        <div class="top-contact-info d-flex align-items-center">
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="São Paulo, ABCD e Região"><img src="img/core-img/placeholder.png" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!"> <span>São Paulo, ABCD e Região</span></a>
-                            <a href="mailto: decorlimp.brasil@gmail.com" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR ORÇAMENTO"><img src="img/core-img/message.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"> <span>decorlimp.brasil@gmail.com</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Navbar Area -->
-        <div class="credit-main-menu" id="sticker">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="creditNav">
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-							
-							<div class="whatsapp">
-							    <a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR ORÇAMENTO VIA WHATSAPP"><img src="img/core-img/whatsapp.png" alt="Decorlimp | Ligue: (11) 96489-1638" /></a>
-							</div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="ativo"><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">Quem Somos</a></li>
-                                    <li><a href="#">Serviços</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="servicos/sofas-e-estofados.html">Sofás</a></li>
-                                                <li><a href="servicos/colchoes.html">Colchões</a></li>
-                                                <li><a href="servicos/estofados.html">Cadeiras</a></li>
-                                                <li><a href="servicos/estofados.html">Poltronas</a></li>
-                                                <li><a href="servicos/tapetes.html">Tapetes</a></li>
-                                                <li><a href="servicos/carros.html">Automóveis</a></li>
-                                                <li><a href="servicos/estofados.html">Puffs</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="servicos/carpete.html">Carpete</a></li>
-                                                <li><a href="servicos/estofados.html">Carrinho de Bebê</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-									<li><a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank">Orçamento e Contato</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-
-                        <!-- Contact -->
-                        <div class="contact">
-                            <a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank" data-toggle="tooltip" data-placement="bottom" title="CLIQUE PARA SOLICITAR ORÇAMENTO VIA WHATSAPP"><img src="img/core-img/call2.png" alt="Decorlimp | Ligue: (11) 96489-1638"> (11) 96489-1638</a>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
+    <?php include 'header.php'; ?>
 
     <!-- ##### Hero Area Start ##### -->
     <div class="hero-area">
@@ -150,7 +67,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInUp" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO DE</h2>
                                 <p data-animation="fadeInUp" data-delay="500ms">Sofás, Estofados, Cadeiras, Puffs e Poltronas</p>
-                                <a href="servicos/sofas-e-estofados.html" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
+                                <a href="servicos/sofas-e-estofados" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +87,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO DE</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Colchão</p>
-                                <a href="servicos/colchoes.html" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="servicos/colchoes" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -190,7 +107,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInUp" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO AUTOMOTIVA</h2>
                                 <p data-animation="fadeInUp" data-delay="500ms">INTERNA E EXTERNA</p>
-                                <a href="servicos/carros.html" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
+                                <a href="servicos/carros" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +127,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA E HIGIENIZAÇÃO DE TAPETES</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Secagem Ultra Rápida</p>
-                                <a href="servicos/tapetes.html" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="servicos/tapetes" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +147,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA E HIGIENIZAÇÃO DE CARPETE</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Secagem Ultra Rápida</p>
-                                <a href="servicos/carpete.html" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="servicos/carpete" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -323,7 +240,7 @@
                             <img src="img/bg-img/sofa.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/sofas-e-estofados.html"><h5>SOFÁS</h5>
+                            <a href="servicos/sofas-e-estofados"><h5>SOFÁS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Sofás e Estofados.</p></a>
                         </div>
                     </div>
@@ -336,7 +253,7 @@
                             <img src="img/bg-img/colchao.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/colchoes.html"><h5>COLCHÕES</h5>
+                            <a href="servicos/colchoes"><h5>COLCHÕES</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Colchões.</p></a>
                         </div>
                     </div>
@@ -349,7 +266,7 @@
                             <img src="img/bg-img/cadeiras.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados.html"><h5>CADEIRAS</h5>
+                            <a href="servicos/estofados"><h5>CADEIRAS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Cadeiras.</p></a>
                         </div>
                     </div>
@@ -362,7 +279,7 @@
                             <img src="img/bg-img/poltrona.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados.html"><h5>POLTRONAS</h5>
+                            <a href="servicos/estofados"><h5>POLTRONAS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Poltronas.</p></a>
                         </div>
                     </div>
@@ -375,7 +292,7 @@
                             <img src="img/bg-img/tapete.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/tapetes.html"><h5>TAPETES</h5>
+                            <a href="servicos/tapetes"><h5>TAPETES</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Tapetes.</p></a>
                         </div>
                     </div>
@@ -388,7 +305,7 @@
                             <img src="img/bg-img/carro.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/carros.html"><h5>AUTOMÓVEIS</h5>
+                            <a href="servicos/carros"><h5>AUTOMÓVEIS</h5>
                             <p>Limpeza e Higienização da parte interma e externa do automóvel. Impermeabilização dos estofados.</p></a>
                         </div>
                     </div>
@@ -401,7 +318,7 @@
                             <img src="img/bg-img/puff.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados.html"><h5>PUFFS</h5>
+                            <a href="servicos/estofados"><h5>PUFFS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Puffs.</p></a>
                         </div>
                     </div>
@@ -414,7 +331,7 @@
                             <img src="img/bg-img/carpete.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/carpete.html"><h5>CARPETE</h5>
+                            <a href="servicos/carpete"><h5>CARPETE</h5>
                             <p>Limpeza, Higienização de Carpete e Tapetes..</p></a>
                         </div>
                     </div>
@@ -427,7 +344,7 @@
                             <img src="img/bg-img/carrinho.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados.html"><h5>CARRINHO DE BEBÊ</h5>
+                            <a href="servicos/estofados"><h5>CARRINHO DE BEBÊ</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Carrinho de bebê e bebê conforto.</p></a>
                         </div>
                     </div>
@@ -514,137 +431,7 @@
     </section>
     <!-- ##### Newsletter Area End ###### -->
 
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-
-                <!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Mapa do Site</h5>
-                        <!-- Nav -->
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">Quem Somos</a></li>
-								<li><a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank">Orçamento e Contato</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
-				<!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Serviços</h5>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/sofas-e-estofados.html"><img src="img/bg-img/sofa100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Sofás</a>
-                            </div>
-                        </div>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/estofados.html"><img src="img/bg-img/estofados100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Estofados</a>
-                            </div>
-                        </div>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/colchoes.html"><img src="img/bg-img/colchao100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, colchões e estofados em geral. Vamos até sua casa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Colchões</a>
-                            </div>
-                        </div>
-						
-                    </div>
-                </div>
-				
-				<!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Serviços</h5>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/tapetes.html"><img src="img/bg-img/tapete100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, tapetes e estofados em geral. Vamos até sua casa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Tapetes</a>
-                            </div>
-                        </div>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/carros.html"><img src="img/bg-img/carros100.jpg" alt="Somos especializados em lavagem e limpeza de automóveis. Vamos até sua casa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Automóveis</a>
-                            </div>
-                        </div>
-
-                        <!-- Single News Area -->
-                        <div class="single-latest-news-area d-flex align-items-center">
-                            <div class="news-thumbnail">
-                                <a href="servicos/carpete.html"><img src="img/bg-img/carpete100.jpg" alt="Somos especializados em lavagem e limpeza de carpete. Vamos até sua empresa! Confira!">
-                            </div>
-                            <div class="news-content">
-                                Carpete</a>
-                            </div>
-                        </div>
-						
-                    </div>
-                </div>
-				
-				<!-- Redes Sociais - Facebook -->
-                <div class="col-12 col-sm-6 col-lg-3">
-				<div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Redes Sociais</h5>
-				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdecorlimp%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=697398553796716" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-				</div>
-				</div>
-				
-				  </div>
-                </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Copywrite Area -->
-        <div class="copywrite-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
-                            <!-- Footer Logo -->
-                            <a href="index.html" class="logo"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
-
-                            <!-- Copywrite Text -->
-                            <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Site desenvolvido <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://www.solutioncloud.com.br/" target="_blank">Solution Cloud</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area Start ##### -->
+    <?php include 'footer.php'; ?>
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
