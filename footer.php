@@ -52,8 +52,8 @@
                     <!-- Nav -->
                     <nav>
                         <ul>
-                            <li><a href="home">Home</a></li>
-                            <li><a href="quem-somos">Quem Somos</a></li>
+                            <li><a href="home.php">Home</a></li>
+                            <li><a href="quem-somos.php">Quem Somos</a></li>
                             <li><a href="https://api.whatsapp.com/send?phone=5511964891638&text=Quero%20solicitar%20o%20a%20servi%C3%A7o%20de%20voc%C3%AAs." target="_blank">Orçamento e Contato</a></li>
                         </ul>
                     </nav>
@@ -68,7 +68,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/sofas-e-estofados"><img src="img/bg-img/sofa100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
+                            <a href="sofas-e-estofados.php"><img src="img/bg-img/sofa100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
                         </div>
                         <div class="news-content">
                             Sofás</a>
@@ -78,7 +78,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/estofados"><img src="img/bg-img/estofados100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
+                            <a href="estofados.php"><img src="img/bg-img/estofados100.jpg" alt="Somos especializados em lavagem e limpeza de sofás e estofados em geral. Vamos até sua casa! Confira!">
                         </div>
                         <div class="news-content">
                             Estofados</a>
@@ -88,7 +88,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/colchoes"><img src="img/bg-img/colchao100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, colchões e estofados em geral. Vamos até sua casa! Confira!">
+                            <a href="colchoes.php"><img src="img/bg-img/colchao100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, colchões e estofados em geral. Vamos até sua casa! Confira!">
                         </div>
                         <div class="news-content">
                             Colchões</a>
@@ -106,7 +106,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/tapetes"><img src="img/bg-img/tapete100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, tapetes e estofados em geral. Vamos até sua casa! Confira!">
+                            <a href="tapetes.php"><img src="img/bg-img/tapete100.jpg" alt="Somos especializados em lavagem e limpeza de sofás, tapetes e estofados em geral. Vamos até sua casa! Confira!">
                         </div>
                         <div class="news-content">
                             Tapetes</a>
@@ -116,7 +116,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/carros"><img src="img/bg-img/carros100.jpg" alt="Somos especializados em lavagem e limpeza de automóveis. Vamos até sua casa! Confira!">
+                            <a href="carros.php"><img src="img/bg-img/carros100.jpg" alt="Somos especializados em lavagem e limpeza de automóveis. Vamos até sua casa! Confira!">
                         </div>
                         <div class="news-content">
                             Automóveis</a>
@@ -126,7 +126,7 @@
                     <!-- Single News Area -->
                     <div class="single-latest-news-area d-flex align-items-center">
                         <div class="news-thumbnail">
-                            <a href="servicos/carpete"><img src="img/bg-img/carpete100.jpg" alt="Somos especializados em lavagem e limpeza de carpete. Vamos até sua empresa! Confira!">
+                            <a href="carpete.php"><img src="img/bg-img/carpete100.jpg" alt="Somos especializados em lavagem e limpeza de carpete. Vamos até sua empresa! Confira!">
                         </div>
                         <div class="news-content">
                             Carpete</a>
@@ -159,7 +159,7 @@
                 <div class="col-12">
                     <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
                         <!-- Footer Logo -->
-                        <a href="home" class="logo"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
+                        <a href="home.php" class="logo"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
 
                         <!-- Copywrite Text -->
                         <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

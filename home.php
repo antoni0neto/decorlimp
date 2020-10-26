@@ -67,7 +67,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInUp" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO DE</h2>
                                 <p data-animation="fadeInUp" data-delay="500ms">Sofás, Estofados, Cadeiras, Puffs e Poltronas</p>
-                                <a href="servicos/sofas-e-estofados" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
+                                <a href="sofas-e-estofados.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO DE</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Colchão</p>
-                                <a href="servicos/colchoes" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="colchoes.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInUp" data-delay="300ms">LIMPEZA, HIGIENIZAÇÃO E IMPERMEABILIZAÇÃO AUTOMOTIVA</h2>
                                 <p data-animation="fadeInUp" data-delay="500ms">INTERNA E EXTERNA</p>
-                                <a href="servicos/carros" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
+                                <a href="carros.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA E HIGIENIZAÇÃO DE TAPETES</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Secagem Ultra Rápida</p>
-                                <a href="servicos/tapetes" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="tapetes.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                             <div class="welcome-text text-center">
                                 <h2 data-animation="fadeInDown" data-delay="300ms">LIMPEZA E HIGIENIZAÇÃO DE CARPETE</h2>
                                 <p data-animation="fadeInDown" data-delay="500ms">Secagem Ultra Rápida</p>
-                                <a href="servicos/carpete" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
+                                <a href="carpete.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +240,7 @@
                             <img src="img/bg-img/sofa.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/sofas-e-estofados"><h5>SOFÁS</h5>
+                            <a href="sofas-e-estofados.php"><h5>SOFÁS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Sofás e Estofados.</p></a>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                             <img src="img/bg-img/colchao.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/colchoes"><h5>COLCHÕES</h5>
+                            <a href="colchoes.php"><h5>COLCHÕES</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Colchões.</p></a>
                         </div>
                     </div>
@@ -266,7 +266,7 @@
                             <img src="img/bg-img/cadeiras.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados"><h5>CADEIRAS</h5>
+                            <a href="estofados.php"><h5>CADEIRAS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Cadeiras.</p></a>
                         </div>
                     </div>
@@ -279,7 +279,7 @@
                             <img src="img/bg-img/poltrona.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados"><h5>POLTRONAS</h5>
+                            <a href="estofados.php"><h5>POLTRONAS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Poltronas.</p></a>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                             <img src="img/bg-img/tapete.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/tapetes"><h5>TAPETES</h5>
+                            <a href="tapetes.php"><h5>TAPETES</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Tapetes.</p></a>
                         </div>
                     </div>
@@ -305,7 +305,7 @@
                             <img src="img/bg-img/carro.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/carros"><h5>AUTOMÓVEIS</h5>
+                            <a href="carros.php"><h5>AUTOMÓVEIS</h5>
                             <p>Limpeza e Higienização da parte interma e externa do automóvel. Impermeabilização dos estofados.</p></a>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                             <img src="img/bg-img/puff.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados"><h5>PUFFS</h5>
+                            <a href="estofados.php"><h5>PUFFS</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Puffs.</p></a>
                         </div>
                     </div>
@@ -331,7 +331,7 @@
                             <img src="img/bg-img/carpete.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/carpete"><h5>CARPETE</h5>
+                            <a href="carpete.php"><h5>CARPETE</h5>
                             <p>Limpeza, Higienização de Carpete e Tapetes..</p></a>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
                             <img src="img/bg-img/carrinho.jpg" />
                         </div>
                         <div class="text">
-                            <a href="servicos/estofados"><h5>CARRINHO DE BEBÊ</h5>
+                            <a href="estofados.php"><h5>CARRINHO DE BEBÊ</h5>
                             <p>Limpeza, Higienização e Impermeabilização de Carrinho de bebê e bebê conforto.</p></a>
                         </div>
                     </div>

@@ -49,7 +49,7 @@
                 <div class="col-12 d-flex justify-content-between">
                     <!-- Logo Area -->
                     <div class="logo">
-                        <a href="home"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
+                        <a href="home.php"><img src="img/core-img/logo.png" alt="Lavagem e Limpeza de Sofás e Estofados, ligue: 11 964891638 | Decorlimp"></a>
                     </div>
 
                     <!-- Top Contact Info -->
@@ -89,27 +89,27 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="ativo"><a href="home">Home</a></li>
-                                <li><a href="quem-somos">Quem Somos</a></li>
+                                <li class="ativo"><a href="home.php">Home</a></li>
+                                <li><a href="quem-somos.php">Quem Somos</a></li>
                                 <li><a href="#">Serviços</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
-                                            <li><a href="sofas-e-estofados">Sofás</a></li>
-                                            <li><a href="colchoes">Colchões</a></li>
-                                            <li><a href="estofados">Cadeiras</a></li>
-                                            <li><a href="estofados">Poltronas</a></li>
-                                            <li><a href="tapetes">Tapetes</a></li>
-                                            <li><a href="carros">Automóveis</a></li>
-                                            <li><a href="estofados">Puffs</a></li>
+                                            <li><a href="sofas-e-estofados.php">Sofás</a></li>
+                                            <li><a href="colchoes.php">Colchões</a></li>
+                                            <li><a href="estofados.php">Cadeiras</a></li>
+                                            <li><a href="estofados.php">Poltronas</a></li>
+                                            <li><a href="tapetes.php">Tapetes</a></li>
+                                            <li><a href="carros.php">Automóveis</a></li>
+                                            <li><a href="estofados.php">Puffs</a></li>
                                         </ul>
                                         <ul class="single-mega cn-col-4">
-                                            <li><a href="carpete">Carpete</a></li>
-                                            <li><a href="estofados">Carrinho de Bebê</a></li>
+                                            <li><a href="carpete.php">Carpete</a></li>
+                                            <li><a href="estofados.php">Carrinho de Bebê</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="orcamento">Orçamento</a></li>
-                                <li><a href="contato">Contato</a></li>
+                                <li><a href="orcamento.php">Orçamento</a></li>
+                                <li><a href="contato.php">Contato</a></li>
                             </ul>
                         </div>
                         <!-- Nav End -->
